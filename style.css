@@ -1,0 +1,51 @@
+.bloco{
+    margin: 20px auto;
+    color: #fff;
+    background-color: gray;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50px;
+    align-items: center;
+    display: flex;
+}
+h1, label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-size: 20px; */
+}
+input{
+    margin: 10px;
+    padding: 5px;
+    outline: 0;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button{
+    border-radius: 10px;
+    border: none;
+    height: 35px;
+    width: 100px;
+    color: #fff;
+    background-color: blueviolet;
+    cursor: pointer;
+    transition: .5s;
+}
+button:hover{
+    height: 40px;
+    width: 140px;
+}
+h1{
+   text-align: center;
+}
+form {
+    margin: auto;
+    color: #fff;
+    border: solid;
+    width: 35%;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 20px;
+    background-color: rgb(19, 65, 151);
+}
